@@ -14,9 +14,13 @@ header {
     padding: 5px 20px;
 }
 
+.Happiness {
+    margin: 0 auto;
+    width: 1000px;
+}
+
 .container {
     width: 100%;
-    margin: 0 20px;
     display: inline-block;
 }
 
@@ -81,6 +85,7 @@ nav ul li a {
     padding-bottom: 30px;
 }
 
+
 .btn {
     padding: 7px 15px;
     border: none;
@@ -89,4 +94,58 @@ nav ul li a {
     font-weight: 500;
     font-size: 15px;
     border-radius: 2px;
+}
+
+/* graph section */
+
+.graph {
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: #a3a3a380;
+    align-items: center;
+}
+
+.col-50 {
+    flex: 50%;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-50>img {
+    width: 150px;
+    /* padding: 0 20px; */
+}
+
+.imge-set {
+    justify-content: center;
+}
+
+.Text-set {
+    padding-left: 40px;
+}
+
+.col-50 h2 {
+    padding-right: 80px;
+    font-size: 64px;
+    line-height: 58px;
+    color: #eaca1c;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+.col-50 p {
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #000000;
+    padding-right: 80px;
+    font-weight: 400;
+}
+
+.col-50 a {
+    font-size: 17px;
+    margin-bottom: 20px;
+    color: #000000;
+    font-weight: 700;
+    text-decoration: none;
 }
